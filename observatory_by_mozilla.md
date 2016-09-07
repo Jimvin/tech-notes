@@ -16,7 +16,7 @@ export HTTPOBS_DIR=/opt/http-observatory
 export HTTPOBSWEB_DIR=/opt/http-observatory-website
 export CIPHERSCAN_DIR=/opt/cipherscan
 export GOPATH=/opt/gotls
-if [[ ! -d $HTTPOBS_DIR ]]; then mkdir -p $HTTPOBS_DIR; fi
+if [ ! -d $HTTPOBS_DIR ]; then mkdir -p $HTTPOBS_DIR; fi
 git clone https://github.com/mozilla/http-observatory $HTTPOBS_DIR
 ```
 
