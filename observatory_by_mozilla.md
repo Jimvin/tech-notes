@@ -42,10 +42,9 @@ apt install python3-venv python3-wheel
 install postgres & python3 development to be used by the python wrapper
 ```bash
 dpkg -l | grep postgresql- | grep -i server
-  # ii  postgresql-9.4                 9.4.9-0+deb8u1                    amd64        object-relational SQL database, version 9.4 server
-
+ii  postgresql-9.5                      9.5.4-0ubuntu0.16.04            amd64        object-relational SQL database, version 9.5 server
 # so let's install
-apt install postgresql-server-dev-9.4 python3-dev
+apt install postgresql-server-dev-9.5 python3-dev
 ```
 
 
